@@ -34,3 +34,10 @@ You will need to reload your bashrc after a bookmark is added
 ```
 source ~/.bashrc
 ```
+
+You can now instantly navigate to the bookmarks directory by simply using the bookmarks name!
+
+```
+{name}
+
+```
