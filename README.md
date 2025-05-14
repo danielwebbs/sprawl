@@ -39,5 +39,4 @@ You can now instantly navigate to the bookmarks directory by simply using the bo
 
 ```
 {name}
-
 ```
