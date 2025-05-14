@@ -1,4 +1,3 @@
-//TODO: Remove in the future as this is left over from an idea that didn't work around avoiding the need to source the bashrc
 using System.Diagnostics;
 
 namespace Shells;
@@ -10,7 +9,6 @@ public class Bash : IShell
     public async Task<(string stdout, string stderr)> Execute(string command)
     {
         using var process = this.BuildProcess(command);
-        // Console.WriteLine($"Executing: {command}");
         process.Start();
 
         string output = await process.StandardOutput.ReadToEndAsync();
